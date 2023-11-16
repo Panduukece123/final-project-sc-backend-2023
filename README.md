@@ -25,7 +25,6 @@ Di folder config, berikan konfigurasi yang diperlukan untuk basis data MongoDB A
 
 ```bash
 url: "mongodb://localhost:27017/library",
-
 ```
 
 Gantilah url sesuai dengan string koneksi sebenarnya untuk basis data MongoDB Anda.
@@ -39,4 +38,22 @@ Proyek ini mengikuti struktur standar:
 - **routes**: Mendefinisikan rute API.
 - **server.js**: Titik masuk aplikasi.
 
+## Menjalankan Aplikasi
 
+Setelah mengonfigurasi basis data, Anda dapat menjalankan aplikasi dengan menggunakan:
+
+```bash
+npm start
+```
+
+## Catatan Tambahan
+- **Autentikasi**: Jika Anda ingin meningkatkan proyek dengan autentikasi, silakan lakukan. Anda dapat merujuk ke perpustakaan autentikasi populer seperti Passport.js.
+
+## Pengingat Penting
+
+### Harap dicatat bahwa menggunakan tema manajemen data buku, seperti yang ditunjukkan di sini, dilarang keras. Bersikaplah kreatif dan kembangkan konsep yang unik dan asli untuk proyek Anda.
+
+Untuk bantuan tambahan, lihat tutorial video proyek
+[Video Referensi](https://www.youtube.com/watch?v=U0A7kmXOnjo&si=dJ86NyxJunmJVcwQ)
+
+Selamat coding!
