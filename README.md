@@ -1,4 +1,4 @@
-# README Proyek Akhir Backend
+# Proyek Akhir Backend
 
 ## Pengenalan
 
@@ -30,4 +30,13 @@ url: "mongodb://localhost:27017/library",
 
 Gantilah url sesuai dengan string koneksi sebenarnya untuk basis data MongoDB Anda.
 
-## Konfigurasi Basis Data
+## Struktur Proyek
+
+Proyek ini mengikuti struktur standar:
+- **config**: Menyimpan konfigurasi, termasuk konfigurasi basis data.
+- **controllers**: Menangani logika bisnis.
+- **models**: Mendefinisikan model-data untuk MongoDB menggunakan Mongoose.
+- **routes**: Mendefinisikan rute API.
+- **server.js**: Titik masuk aplikasi.
+
+
