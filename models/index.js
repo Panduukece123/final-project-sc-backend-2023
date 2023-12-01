@@ -1,14 +1,10 @@
-import configDB from "../config/dbConfig.js";
-import mongoose from "mongoose";
-import { bookModel } from "./book.js";
+const dbConfig = require("../config/database");
+const mongoose = require("mongoose");
 
-/**
- * definisikan model yang akan digunakan (berguna ketika ada beberapa model)
- */
-const configModel = {
+module.exports = {
     mongoose,
-    url: configDB.url,
-    book: bookModel,
-};
+    url: dbConfig.url,
+    tiket_kereta: require('./tiket_kereta.model.js')(mongoose)
+}
 
-export default configModel;
+
