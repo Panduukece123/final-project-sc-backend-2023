@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-const db = require("./app/models");
+const db = require("./models");
 const app = express();
 
 const corsOptions = {
@@ -24,7 +24,7 @@ db.mongoose.connect(db.url, mongooseConfig)
 
 
 // memanggil route tiket
-require("./app/routes/tiket_kereta.route")(app);
+require("./routes/tiket_kereta.route")(app);
 
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
