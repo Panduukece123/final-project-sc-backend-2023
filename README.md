@@ -124,9 +124,14 @@ Server berjalan di: http://localhost:8000
 | DELETE | `/tiket_kereta/:id` | Hapus tiket berdasarkan ID  |
 
 ### 📸 Preview
-![delete](preview/delete.png)
-![getall](preview/getall.png)
-![getbyid](preview/getbyid.png)
-![post](preview/post.png)
-![putbyid](preview/putbyid.png)
 
+#### Get All Tiket
+![getall](preview/getall.png)
+#### Get Tiket by ID
+![getbyid](preview/getbyid.png)
+#### ➕ Create New Tiket
+![post](preview/post.png)
+#### ✏️ Update Tiket by ID
+![putbyid](preview/putbyid.png)
+#### ❌ Delete Tiket by ID
+![delete](preview/delete.png)
